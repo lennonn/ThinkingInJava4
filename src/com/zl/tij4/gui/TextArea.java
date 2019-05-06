@@ -1,11 +1,12 @@
 //: gui/TextArea.java
 package com.zl.tij4.gui;
 // Using the JTextArea control.
+import com.zl.tij4.net.mindview.util.Countries;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
-import static com.zl.tij4.net.mindview.util.*;
 import static com.zl.tij4.net.mindview.util.SwingConsole.*;
 
 public class TextArea extends JFrame {

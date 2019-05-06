@@ -1,10 +1,12 @@
 //: generics/LimitsOfInference.java
 package com.zl.tij4.generics; /* Added by Eclipse.py */
+import com.zl.tij4.typeinfo.pets.Person;
+import com.zl.tij4.typeinfo.pets.Pet;
+
 import java.util.List;
 import java.util.Map;
 
-import pets.Person;
-import pets.Pet;
+
 
 public class LimitsOfInference {
   static void

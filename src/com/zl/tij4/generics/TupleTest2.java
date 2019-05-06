@@ -1,7 +1,12 @@
 //: generics/TupleTest2.java
 package com.zl.tij4.generics; /* Added by Eclipse.py */
-import static com.zl.tij4.net.mindview.util.*;
-import static net.mindview.util.Tuple.*;
+import com.zl.tij4.net.mindview.util.FiveTuple;
+import com.zl.tij4.net.mindview.util.FourTuple;
+import com.zl.tij4.net.mindview.util.ThreeTuple;
+import com.zl.tij4.net.mindview.util.TwoTuple;
+
+import static com.zl.tij4.net.mindview.util.Tuple.tuple;
+
 
 public class TupleTest2 {
   static TwoTuple<String,Integer> f() {
@@ -11,12 +16,10 @@ public class TupleTest2 {
   static ThreeTuple<Amphibian,String,Integer> g() {
     return tuple(new Amphibian(), "hi", 47);
   }
-  static
-  FourTuple<Vehicle,Amphibian,String,Integer> h() {
+  static FourTuple<Vehicle,Amphibian,String,Integer> h() {
     return tuple(new Vehicle(), new Amphibian(), "hi", 47);
   }
-  static
-  FiveTuple<Vehicle,Amphibian,String,Integer,Double> k() {
+  static FiveTuple<Vehicle,Amphibian,String,Integer,Double> k() {
     return tuple(new Vehicle(), new Amphibian(),
       "hi", 47, 11.1);
   }

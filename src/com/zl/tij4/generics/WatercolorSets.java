@@ -1,8 +1,9 @@
 //: generics/WatercolorSets.java
 package com.zl.tij4.generics; /* Added by Eclipse.py */
+import static com.zl.tij4.generics.watercolors.Watercolors.*;
 import static com.zl.tij4.net.mindview.util.Print.print;
-import static generics.watercolors.Watercolors.*;
-import static net.mindview.util.Sets.*;
+import static com.zl.tij4.net.mindview.util.Sets.*;
+
 
 import java.util.EnumSet;
 import java.util.Set;

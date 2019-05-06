@@ -1,8 +1,9 @@
 //: generics/TupleList.java
 package com.zl.tij4.generics; /* Added by Eclipse.py */
 // Combining generic types to make complex generic types.
+import com.zl.tij4.net.mindview.util.FourTuple;
+
 import java.util.*;
-import static com.zl.tij4.net.mindview.util.*;
 
 public class TupleList<A,B,C,D>
 extends ArrayList<FourTuple<A,B,C,D>> {

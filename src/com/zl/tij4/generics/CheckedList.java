@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import com.zl.tij4.typeinfo.pets.Cat;
 import com.zl.tij4.typeinfo.pets.Dog;
 import com.zl.tij4.typeinfo.pets.Pet;
 

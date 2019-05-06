@@ -1,10 +1,12 @@
 //: gui/TextPane.java
 package com.zl.tij4.gui;
 // The JTextPane control is a little editor.
+import com.zl.tij4.net.mindview.util.Generator;
+import com.zl.tij4.net.mindview.util.RandomGenerator;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import static com.zl.tij4.net.mindview.util.*;
 import static com.zl.tij4.net.mindview.util.SwingConsole.*;
 
 public class TextPane extends JFrame {

@@ -1,8 +1,9 @@
 //: generics/Store.java
 package com.zl.tij4.generics; /* Added by Eclipse.py */
 // Building up a complex model using generic containers.
+import com.zl.tij4.net.mindview.util.Generator;
+
 import java.util.*;
-import static com.zl.tij4.net.mindview.util.*;
 
 class Product {
   private final int id;

@@ -1,7 +1,8 @@
 //: generics/Fibonacci.java
 package com.zl.tij4.generics; /* Added by Eclipse.py */
 // Generate a Fibonacci sequence.
-import static com.zl.tij4.net.mindview.util.*;
+import com.zl.tij4.net.mindview.util.Generator;
+
 
 public class Fibonacci implements Generator<Integer> {
   private int count = 0;

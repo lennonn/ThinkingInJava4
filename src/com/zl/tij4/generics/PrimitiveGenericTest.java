@@ -1,6 +1,8 @@
 //: generics/PrimitiveGenericTest.java
 package com.zl.tij4.generics; /* Added by Eclipse.py */
-import static com.zl.tij4.net.mindview.util.*;
+
+import com.zl.tij4.net.mindview.util.Generator;
+import com.zl.tij4.net.mindview.util.RandomGenerator;
 
 // Fill an array using a generator:
 class FArray {
